@@ -24,6 +24,7 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv \
      --force-feedback                                \
      --dpad-as-button                                \
      --trigger-as-button                             \
+     --four-way-restrictor                           \
      --device-name "CustomController"                       \
      --evdev-absmap ABS_X=dpad_x,ABS_Y=dpad_y,ABS_Z=dpad_x,ABS_RZ=dpad_y,ABS_HAT0X=dpad_x,ABS_HAT0Y=dpad_y \
      --evdev-keymap BTN_BASE=a,BTN_TOP2=a,BTN_PINKIE=rb,BTN_BASE2=rt,BTN_BASE5=a,BTN_BASE6=a,BTN_BASE4=start,BTN_BASE3=back,BTN_THUMB2=b,BTN_THUMB=a,BTN_TRIGGER=y,BTN_TOP=x &
